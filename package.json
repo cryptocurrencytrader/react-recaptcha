@@ -1,0 +1,36 @@
+{
+  "name": "@bitcointrade/react-recaptcha",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": "git@github.com:cryptocurrencytrader/react-recaptcha.git",
+  "author": "Rafael Tavares <rafael@tavares.email>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "run-publish": "tslint -c tslint.json 'src/**/*.ts' && rimraf .publishing && tsc --outDir .publishing && copy package.json .publishing && copy README.md .publishing && npm publish .publishing",
+    "test": "tslint -c tslint.json 'src/**/*.ts' && tsc"
+  },
+  "dependencies": {
+    "@bitcointrade/react-helpers": "^1.1.0",
+    "@types/grecaptcha": "^2.0.35",
+    "@types/query-string": "^6.1.0",
+    "@types/react": "^16.3.16",
+    "@types/react-dom": "^16.0.6",
+    "query-string": "^6.1.0",
+    "tslib": "^1.9.2",
+    "type-zoo": "^2.0.0"
+  },
+  "devDependencies": {
+    "copy": "^0.3.2",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "rimraf": "^2.6.2",
+    "tslint": "^5.10.0",
+    "tslint-react": "^3.6.0",
+    "typescript": "2.8.x"
+  },
+  "peerDependencies": {
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0"
+  }
+}
