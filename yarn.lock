@@ -19,9 +19,9 @@
   version "10.5.0"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-10.5.0.tgz#f5b61395c09b47ac46aaa1452750c9a72b3d3673"
 
-"@types/query-string@^6.1.0":
-  version "6.1.0"
-  resolved "https://registry.yarnpkg.com/@types/query-string/-/query-string-6.1.0.tgz#5f721f9503bdf517d474c66cf4423da5dd2d5698"
+"@types/query-string@^5.0.0":
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/@types/query-string/-/query-string-5.1.0.tgz#7f40cdea49ddafa0ea4f3db35fb6c24d3bfd4dcc"
 
 "@types/react-dom@^16.0.6":
   version "16.0.6"
@@ -596,12 +596,13 @@ prop-types@^15.6.0:
     loose-envify "^1.3.1"
     object-assign "^4.1.1"
 
-query-string@^6.1.0:
-  version "6.1.0"
-  resolved "https://registry.yarnpkg.com/query-string/-/query-string-6.1.0.tgz#01e7d69f6a0940dac67a937d6c6325647aa4532a"
+query-string@^5.0.0:
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/query-string/-/query-string-5.1.1.tgz#a78c012b71c17e05f2e3fa2319dd330682efb3cb"
   dependencies:
     decode-uri-component "^0.2.0"
-    strict-uri-encode "^2.0.0"
+    object-assign "^4.1.0"
+    strict-uri-encode "^1.0.0"
 
 react-display-name@^0.2.4:
   version "0.2.4"
@@ -686,9 +687,9 @@ sprintf-js@~1.0.2:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/sprintf-js/-/sprintf-js-1.0.3.tgz#04e6926f662895354f3dd015203633b857297e2c"
 
-strict-uri-encode@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/strict-uri-encode/-/strict-uri-encode-2.0.0.tgz#b9c7330c7042862f6b142dc274bbcc5866ce3546"
+strict-uri-encode@^1.0.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/strict-uri-encode/-/strict-uri-encode-1.1.0.tgz#279b225df1d582b1f54e65addd4352e18faa0713"
 
 string_decoder@~1.1.1:
   version "1.1.1"
