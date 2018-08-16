@@ -1,6 +1,6 @@
 {
   "name": "@bitcointrade/react-recaptcha",
-  "version": "0.1.0-alpha.1",
+  "version": "1.0.0",
   "main": "index.js",
   "repository": "git@github.com:cryptocurrencytrader/react-recaptcha.git",
   "author": "Rafael Tavares <rafael@tavares.email>",
